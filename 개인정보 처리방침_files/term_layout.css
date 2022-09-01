@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+dl,ul,ol,menu,li{list-style:none}
+body{background:#1e1e1e;word-wrap:break-word;word-break:keep-all}
+body,th,td,input,select,textarea,button{font-size:16px;line-height:1.5;font-family:'NotoSans Light','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif;color:#666}
+a{color:#333;text-decoration:none}
+a:active, a:hover{text-decoration:underline}
+a:active{background-color:transparent}
+
+
+/* layout */
+#Layoutwrap{position:relative;min-width:80%;background-color:#fff}
+#mContnet{overflow:hidden;position:relative;max-width:75%;margin:0 auto;padding-bottom:180px}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px}
+
+
+/* 가로탭 */
+.wrap_tab{position:relative;padding-top:30px}
+.wrap_tab .list_tab{overflow:hidden}
+.wrap_tab .list_tab li{float:left;margin-right:38px}
+.wrap_tab .list_tab .link_tab{display:block;font-size:20px;line-height:30px;color:#666;text-decoration:none}
+.wrap_tab .list_tab .on .link_tab, .wrap_tab .list_tab .link_tab:hover{border-bottom:1px solid #4d4d4d;font-weight:bold;color:#1e1e1e}
+
+/* 이용약관 */
+.wrap_policy .tit_policy{margin-top:55px;border-top:1px solid #e1e1e1}
+.wrap_policy .tit_policy:first-child{margin-top:0;border-top:0 none}
+
+.wrap_menu{overflow:hidden;margin-top:27px;padding:19px 0 21px;border:1px solid #1e1e1e}
+.wrap_menu .list_menu{float:left;padding:0 40px;box-sizing:border-box}
+.wrap_menu .list_menu .link_menu{display:block;line-height:34px;color:#1e1e1e;font-family:'NotoSans Regular','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif}
+.wrap_privacy{margin-top:60px}
+.wrap_privacy .tit_policy{margin-top:55px;border-top:1px solid #e6e6e6}
+.wrap_privacy .tit_policy:first-child{margin-top:0;border-top:0 none}
+.wrap_menu .list_submenu{padding-left:25px}
+.wrap_menu .list_submenu .link_menu{display:block;font-size:14px;line-height:26px}
+.list_submenu li:hover .link_menu{color:#1e1e1e;font-weight:bold;text-decoration:underline}
+
+
+
+/* 약관 */
+.tit_policy{display:block;padding-top:55px;font-weight:bold;font-size:20px;line-height:26px;color:#1e1e1e}
+.tab_policy + .tit_policy{padding-top:96px}
+.tit_subject{display:block;padding-top:40px;line-height:28px;color:#1e1e1e}
+.tit_subject.fst{padding-top:53px}
+.link_policy{color:#3c64e6}
+ .desc_txt{padding-top:28px;line-height:26px}
+
+.list_1depth{padding-left:25px}
+.list_1depth li{padding-top:18px;line-height:26px}
+.list_1depth .txt_num{margin:0 12px 0 -25px}
+.list_1depth_type1{margin-top:25px;padding:24px 0 0 39px;border-top:1px solid #e6e6e6}
+.list_1depth_type1.fst{margin-top:0;padding-top:8px;border-top:0 none}
+.list_1depth_type1 li{font-size:14px;line-height:26px}
+.list_1depth_type1 li:before{display:inline-block;width:2px;height:2px;margin:12px 14px 0 -16px;vertical-align:top;background-color:#1e1e1e;content:''}
+.list_2depth{padding:9px 0 0 10px}
+.list_1depth .list_2depth{padding-left:16px}
+.list_2depth li{padding-top:0;font-size:14px;line-height:26px}
+.list_2depth li:before{display:inline-block;width:2px;height:2px;margin:12px 14px 0 -16px;vertical-align:top;background-color:#1e1e1e;content:''}
+.list_2depth_type1{padding:10px 0 0 22px}
+.list_2depth_type1 li{font-size:14px;line-height:26px}
+.list_2depth_type1 li:first-child .emph_g2{padding-top:0}
+.list_1depth .list_2depth_type1{padding-left:0}
+.list_1depth .list_2depth_type1 li{padding-top:0}
+.wrap_rights .list_1depth .list_2depth_type1 li{text-indent:-8px}
+.list_2depth_type2{padding:0 0 0 0px}
+.list_2depth_type2 li{font-size:14px;line-height:26px}
+.list_2depth_type2 .txt_num{display:inline-block;min-width:15px;margin:0 4px 0 -19px;vertical-align:top}
+.list_1depth .list_2depth_type2{padding-left:19px}
+.list_1depth .list_2depth_type2 li{padding-top:0}
+.list_2depth_type3{padding:0px 0 0 19px}
+.list_2depth_type3 li{padding-top:0;font-size:14px;margin:0 4px 0 -19px;}
+
+.list_3depth{padding:9px 0 0 20px}
+.list_3depth li{padding-top:0;font-size:14px;line-height:26px}
+
+
+/* foot */
+.foot_site .wrap_copyright{background-color:#1e1e1e}
+.foot_site .inner_copyright{position:relative;max-width:1160px;height:78px;margin:0 auto;padding-top:22px}
+.foot_site .info_copyright{float:left}
+.foot_site .dlnk_info{margin-right:8px;font-size:12px;color:#aeaeae;text-decoration:none}
+.foot_site .dlnk_info:hover{text-decoration:underline;color:#fff}
+.foot_site .dlnk_info .dlnk_txt{color:#fff}
+
+
+.foot_site .txt_copyright{display:block;padding-top:2px;font-size:12px;color:#aeaeae;clear:both;content:'';}
+.foot_site .link_site{color:#aeaeae}
+.foot_site .link_site:hover{text-decoration:underline}
+.info_svc{float:left;position:relative;margin-right:12px}
+
+
+.tbl_privacy{width:70%}
+.tbl_private .inner_cell{padding:24px 20px 23px} /* 2019-07-09 수정 */
+.list_private + .emph_g{display:block;padding-top:5px}
+
+.tbl_comm{overflow:hidden;margin-top:0px;border-top:2px solid #4d4d4d;word-break:normal} /* 2019-09-18 수정 */
+.tbl{width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed}
+.tbl th{border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;font-weight:normal;font-size:14px}
+.tbl td{border-left:1px solid #e6e6e6;border-bottom:1px solid #e6e6e6;font-size:14px;line-height:26px;text-align:center}
+.tbl thead th{padding:15px 20px;color:#1e1e1e;font-family:'NotoSans Regular','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif}
+.tbl .inner_cell{padding:15px 20px 14px}
+.tbl .inner_cell .btn_step{margin:0}
+.tbl .fst{border-left:0 none}
+.tbl .ta_left{text-align:left}
+.tbl .ta_center{text-align:center}
+.tbl .ta_right{text-align:right}
+.tbl .va_top{vertical-align:top}
+.tbl .border_r{border-right:1px solid #e6e6e6}
+.tbl .link_txt{color:#1e1e1e;line-height:24px;font-family:'NotoSans Regular','Malgun Gothic','맑은 고딕','Apple SD Gothic Neo','돋움',dotum, sans-serif} /* 테이블안에 링크 */
+.tbl .link_txt:hover{font-weight:bold}
+.tbl .data_none{padding:69px 0 72px;font-weight:bold;font-size:16px;color:#1e1e1e}
+.tbl_type2 th{border-left:0 none;text-align:center} /* tbl_type2 : 보더없는 테이블 */
+.tbl_type2 td{border-left:0 none}
